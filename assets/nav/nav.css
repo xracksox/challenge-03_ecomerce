@@ -1,0 +1,37 @@
+.nav {
+    height: 115px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav__primero {
+    display: flex;
+    align-items: center;
+    margin-right: 30rem;
+}
+.logo {
+    font-family: 'Poiret One';
+    color: #fff;
+    color: #594A47;
+    text-transform: lowercase;
+    font-size: 5rem;
+
+    padding: 1rem 9rem 2rem 1rem;
+    font-weight: 100;
+}
+.nav__btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 10rem;
+    color: #594A47;
+    border: #594A47 1px solid;
+    border-radius: 5px;
+    background: none;
+}
+.nav__btn:hover {
+    background: #ffffff99;
+    transition: .2s;
+}

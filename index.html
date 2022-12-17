@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Becolate | Brownies para ti</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Poiret+One&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/base/reset.css">
+    <link rel="stylesheet" href="./assets/base/base.css">
+    <link rel="stylesheet" href="./assets/nav/nav_buscador.css">
+    <link rel="stylesheet" href="./assets/nav/nav.css">
+    <link rel="stylesheet" href="./assets/banner/banner.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav__primero">
+            <a href="http://becolate.ml" class="nav__enlace">
+                <h1 class="logo">Becolate</h1>
+            </a>
+            <form class="barra_buscador">
+                <label for="buscar">
+                    <input required="" autocomplete="off" placeholder="Buscar" id="buscar" type="text">
+                    <div class="icono">
+                        <svg stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" fill="none" class="cerrar">
+                            <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linejoin="round"
+                                stroke-linecap="round"></path>
+                        </svg>
+                        <svg stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" fill="none" class="flecha">
+                            <path d="M10 19l-7-7m0 0l7-7m-7 7h18" stroke-linejoin="round" stroke-linecap="round"></path>
+                        </svg>
+                    </div>
+                    <button type="reset" class="btn_cerrar">
+                        <svg viewBox="0 0 20 20" class="h-5 w-5">
+                            <path clip-rule="evenodd"
+                                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                fill-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </label>
+            </form>
+        </div>
+        <a class="nav__btn" href="#">Login</a>
+    </nav>
+    <section class="banner">
+        <!-- <img class="banner__img" src="./img/fondo.jpg" alt="Banner brownie"> -->
+        <div class="banner__texto">
+            <h2 class="banner__texto--titulo">Promociones del mes</h2>
+            <p class="banner__texto--texto">Productos seleccionados con 33% de descuento</p>
+            <button class="banner__texto--btn">Ver Promociones</button>
+        </div>
+    </section>
+    <section class="productos">
+
+        <div class="productos__seccion">
+            <h2 class="productos__titulo">Cajas</h2>
+            <div class="productos__card">
+                <img src="./img/caja_beco.jpeg" alt="Caja Beco" class="productos__card--img">
+                <h3 class="productos__card--producto">Caja Beco</h3>
+                <p class="productos__card--precio">Ver precios</p>
+                <button class="productos__card--btn">Ver productos</button>
+            </div>
+            <div class="productos__card">
+                <img src="./img/caja_late.jpeg" alt="Caja Late" class="productos__card--img">
+                <h3 class="productos__card--producto">Caja Late</h3>
+                <p class="productos__card--precio">Ver precios</p>
+                <button class="productos__card--btn">Ver productos</button>
+            </div>
+            <div class="productos__card">
+                <img src="./img/caja_beco.jpeg" alt="Caja Minibites" class="productos__card--img">
+                <h3 class="productos__card--producto">Caja Minibites</h3>
+                <!-- <p class="productos__card--precio">Ver precios</p> -->
+                <button class="productos__card--btn">Ver productos</button>
+            </div>
+        </div>
+
+        <div class="productos__seccion">
+            <h2 class="productos__titulo">Galletas de Brownie</h2>
+            <div class="productos__card">
+                <img src="./img/galleta_brownie.jpeg" alt="Galleta Brownie Tradicional" class="productos__card--img">
+                <h3 class="productos__card--producto">Galleta Brownie Tradicional</h3>
+                <p class="productos__card--precio">$20.00</p>
+                <button class="productos__card--btn">Ver producto</button>
+            </div>
+            <div>
+                <img src="./img/galleta_brownie.jpeg" alt="Galleta Brownie Red Velvet" class="productos__card--img">
+                <h3 class="productos__card--producto">Galleta Brownie Red Velvet</h3>
+                <p class="productos__card--precio">$20.00</p>
+                <button class="productos__card--btn">Ver producto</button>
+            </div>
+        </div>
+    </section>
+    <section class="nosotros">
+        <img src="./img/fondo.jpg" alt="Nosotros Logo" class="nosotros__logo">
+        <div class="nosotros__paginas">
+            <a href="#" class="nosotros__paginas--enlace">Quienes somos</a>
+            <a href="#" class="nosotros__paginas--enlace">Política de Privacidad</a>
+            <a href="#" class="nosotros__paginas--enlace">Nuestras Tiendas</a>
+            <a href="#" class="nosotros__paginas--enlace">Anúncie aquí</a>
+        </div>
+        <div class="nosotros">
+            <h2 class="nosotros__titulo">Hable con nosotros</h2>
+            <form action="" class="nosotros__form">
+                <input type="text" class="nosotros__nombre">
+                <input type="text" class="nosotros__mensaje">
+                <button class="nosotros__btn">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="rodapie__texto">Desarrollado por Oscar Díaz</p>
+        <p class="footer__year">2022</p>
+    </footer>
+</body>
+
+</html>

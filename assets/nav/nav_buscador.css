@@ -1,0 +1,98 @@
+.barra_buscador {
+    --input_bg: #fff;
+    --padding: 1.5em;
+    --rotate: 80deg;
+    --gap: 2em;
+    --icon-cambio-color: #594A47;
+    --height: 40px;
+    width: 200px;
+    padding-inline-end: 1em;
+    background: var(--input_bg);
+    position: relative;
+    border-radius: 4px;
+}
+.barra_buscador label {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: var(--height);
+}
+.barra_buscador input {
+    width: 100%;
+    padding-inline-start: calc(var(--padding) + var(--gap));
+    outline: none;
+    background: none;
+    border: 0;
+    font-family: 'Roboto';
+    font-weight: 400;
+    height: var(--height);
+}
+.barra_buscador svg {
+    color: #111;
+    transition: 0.3s cubic-bezier(0.4,0,0.2,1);
+    position: absolute;
+    height: 15px;
+}
+.icono {
+    position: absolute;
+    left: var(--padding);
+    transition: 0.3 cubic-bezier(0.4,0,0.2,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flecha {
+    transform: rotate(-80deg);
+    opacity: 0;
+    visibility: hidden;
+}
+.btn_cerrar {
+    background: none;
+    border: none;
+    right: calc(var(--padding) - var(--gap));
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #111;
+    padding: 0.1em;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transition: 0.3s;
+    opacity: 0;
+    transform: scale(0);
+    visibility: hidden;
+    cursor: pointer;
+}
+.barra_buscador input:focus ~ .icono {
+    transform: rotate(var(--rotate)) scale(1.3);
+}
+.barra_buscador input:focus ~ .icono .flecha {
+    opacity: 1;
+    transform: rotate(-80deg);
+    visibility: visible;
+    color: var(--icon-cambio-color);
+}
+.barra_buscador input:focus ~ .icono .cerrar {
+    opacity: 0;
+    visibility: visible;
+}
+.barra_buscador input:valid ~ .icono {
+    transform: scale(1.3) rotate(var(--rotate));
+}
+.barra_buscador input:valid ~ .icono .flecha {
+    opacity: 1;
+    visibility: visible;
+    color: var(--icon-cambio-color);
+}
+.barra_buscador input:valid ~ .icono .cerrar {
+    opacity: 0;
+    visibility: visible;
+}
+.barra_buscador input:valid ~  .btn_cerrar {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    transition: 0s;
+}

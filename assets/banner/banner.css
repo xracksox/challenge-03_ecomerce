@@ -1,0 +1,20 @@
+.banner {
+    background: rgba(0, 0, 0, 0.5);
+    background-image: url("../../img/fondo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    height: 22rem;    
+}
+.banner__texto {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 1rem;
+    width: 70%;
+    
+    
+}
+.banner__texto--titulo {
+    font-family: 'Roboto';
+}
