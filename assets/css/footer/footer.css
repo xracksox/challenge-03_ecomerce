@@ -1,0 +1,23 @@
+.footer {
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background: #ddd;
+}
+.footer__texto,
+.footer__fecha {
+    margin: .2rem;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+}
+.footer__fecha {
+    margin-bottom: .5rem;
+}
+.footer__texto--enlace {
+    color: #594A47;
+}
+.footer__texto--enlace:hover {
+    color: #594A4790;
+}

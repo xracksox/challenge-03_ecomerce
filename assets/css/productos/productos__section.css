@@ -3,6 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border: 1px solid #b98d8b;
 }
 .productos__section--titulo {
     color: #594A47;
