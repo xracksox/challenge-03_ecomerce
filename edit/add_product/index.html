@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Becolate | Agregar Nuevo Producto</title>
+
+    <link rel="shortcut icon" href="../../img/logo.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Poiret+One&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/css/base/reset.css">
+    <link rel="stylesheet" href="../../assets/css/base/base.css">
+    <link rel="stylesheet" href="../../assets/css/nav/nav.css">
+    <link rel="stylesheet" href="../../assets/css/add/add.css">
+    <link rel="stylesheet" href="../../assets/css/footer/footer.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav__primero">
+            <a href="../" class="nav__enlace">
+                <h1 class="logo">Becolate</h1>
+            </a>
+        </div>
+        <a class="nav__btn" href="#">Login</a>
+    </nav>
+
+    <section class="add">
+        <h2 class="add__title">Agregar nuevo producto</h2>
+        <div class="add__drag-area">
+            <h2 class="add__drag-area--title">Arrastra para agregar una imagen</h2>
+            <span>O</span>
+            <button class="add__drag-area--btn">Selecciona tus archivos</button>
+            <input type="file" name="" id="input-file" hidden multiple>
+        </div>
+        <div class="add__drag--preview"></div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__texto">&copy; Desarrollado por <a href="https://github.com/xracksox/"
+                class="footer__texto--enlace">Oscar Díaz</a></p>
+        <p class="footer__fecha">2022</p>
+    </footer>
+<script src="../../assets/js/drag-area/drag-area.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+.add {
+    min-height: calc(100vh - 7.1875rem - 4rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.add__drag-area {
+    border: 5px dashed #ddd;
+    height: 500px;
+    width: 700px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.add__drag-area.active {
+    background: #b8d4fe;
+    color: black;
+    border: 2px dashed #618ac9;
+}
+.add__drag-area--title {
+    font-family: 'Roboto',sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+}
+.add__drag-area span {
+    font-family: 'Roboto',sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+}
+.add__drag-area--btn {
+    padding: 10px 25px;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    background: #5256ad;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
+.file-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: solid 1px #ddd;
+}
+.add__drag-area--preview {
+    margin-top: 10px;   
+}
+.status-text {
+    padding: 0 10px;
+}
+.success {
+    color: #52ad5a;
+}
+.failure {
+    color: #ff0000;
+}
