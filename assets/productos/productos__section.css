@@ -1,0 +1,13 @@
+.productos__section {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.productos__section--titulo {
+    color: #594A47;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    flex-basis: 100%;    
+}
