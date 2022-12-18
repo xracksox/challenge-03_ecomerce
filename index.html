@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./assets/productos/productos.css">
     <link rel="stylesheet" href="./assets/productos/productos__section.css">
     <link rel="stylesheet" href="./assets/productos/productos__card.css">
+    <link rel="stylesheet" href="./assets/nosotros/nosotros.css">
 </head>
 
 <body>
@@ -140,15 +141,15 @@
             <a href="#" class="nosotros__paginas--enlace">Nuestras Tiendas</a>
             <a href="#" class="nosotros__paginas--enlace">Anúncie aquí</a>
         </div>
-        <div class="nosotros">
-            <h2 class="nosotros__titulo">Hable con nosotros</h2>
-            <form action="" class="nosotros__form">
-                <input type="text" class="nosotros__nombre">
-                <input type="text" class="nosotros__mensaje">
-                <a href="#" class="nosotros__btn">Enviar Mensaje</a>
-            </form>
-        </div>
+        <form action="" class="nosotros__form">
+            <label for="titulo" class="nosotros__form--titulo">Hable con nosotros</label>
+            <input type="text" class="nosotros__form--nombre" id="name" autocomplete="none" placeholder="Nombre">
+            <!-- <input type="text" class="nosotros__form--mensaje" placeholder="Mensaje"> -->
+            <textarea name="" id="msg" cols="30" rows="1" class="nosotros__form--mensaje" placeholder="Mensaje"></textarea>
+            <input class="nosotros__form--btn" type="submit" value="Enviar Mensaje">
+        </form>
     </section>
+
     <footer class="footer">
         <p class="rodapie__texto">Desarrollado por Oscar Díaz</p>
         <p class="footer__year">2022</p>

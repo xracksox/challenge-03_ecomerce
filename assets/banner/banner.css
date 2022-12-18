@@ -17,7 +17,7 @@
     margin-right: 10%;
 }
 .banner__texto--titulo, .banner__texto--texto {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-weight: 200;
     font-size: 1.3rem;
     color: #fff;

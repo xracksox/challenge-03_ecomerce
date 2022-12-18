@@ -15,7 +15,7 @@
     border-radius: 30px;
 }
 .productos__card--producto{
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-weight: 500;
     font-size: 1.1rem;
     color: #594A47;
@@ -23,7 +23,7 @@
     text-align: center;
 }
 .productos__card--precio{
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-weight: 600;
     font-size: 1rem;
     color: #ddd;
@@ -35,7 +35,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     color: #ddd;
     font-weight: 300;
     width: 9rem;

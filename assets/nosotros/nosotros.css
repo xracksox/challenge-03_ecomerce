@@ -1,0 +1,97 @@
+.nosotros {
+    background: #b98d8b;
+    display: flex;
+    padding: 1rem;
+}
+.nosotros__logo {
+    width: 20%;
+    padding: .5rem;
+    border-radius: 30px;
+}
+.nosotros__paginas {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    margin-top: 2rem;
+}
+.nosotros__paginas--enlace {
+    color: #594A47;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: .3rem;
+    margin: .7rem;
+}
+.nosotros__paginas--enlace:hover {
+    color: #594A4790;
+}
+.nosotros__form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+}
+.nosotros__form--titulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 3500;
+    font-size: 1.2rem;
+    padding: 1rem 0 1rem 0;
+}
+.nosotros__form--nombre,
+.nosotros__form--mensaje{
+    margin: 1rem;
+    width: 50%;
+    height: 2.3rem;
+    background: transparent;
+    outline: none;
+    border: 1px solid #aa817f;
+    border-bottom: 1px solid #594A47;
+    font-size: 1rem;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+}
+.nosotros__form--mensaje {
+    height: 10rem;
+}
+.nosotros__form--nombre:active,
+.nosotros__form--nombre:focus,
+.nosotros__form--mensaje:active,
+.nosotros__form--mensaje:focus {
+    outline: none;
+    border: 1px solid #1b3130;
+    border-radius: 8px;
+    transition: .3s;
+}
+.nosotros__form--nombre::placeholder,
+.nosotros__form--mensaje::placeholder {
+    left: 5%;
+    font-family: 'Roboto',sans-serif;
+    color: #ddd;
+    font-weight: 300;
+}
+.nosotros__form--nombre:focus::placeholder,
+.nosotros__form--mensaje:focus::placeholder {
+    color: #594A47;
+}
+.nosotros__form--btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto',sans-serif;
+    color: #ddd;
+    font-weight: 300;
+    width: 9rem;
+    height: 2.5rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: solid #ddd 2px;
+    background: transparent;
+    margin-left: 1rem;
+}
+.nosotros__form--btn:hover{
+    border: solid #594A47 2px;
+    color: #594A47;
+    background: #ffffff90;
+}
